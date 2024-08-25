@@ -1,8 +1,8 @@
 #BlueJ class context
-comment0.target=Pupil
+comment0.target=pupil
 comment0.text=\r\n\ La\ clase\ {@code\ Pupil}\ crea\ un\ alumno\ y\ permite\ gestionar\ y\ mostrar\ sus\ datos\ personales\ y\ notas.\r\n\ Proporciona\ m\u00E9todos\ para\ establecer\ y\ obtener\ informaci\u00F3n\ del\ alumno,\ as\u00ED\ como\ para\ evaluar\r\n\ si\ aprueba\ en\ base\ a\ sus\ notas.\r\n\ \r\n\ @author\ Leonardo\ Canteros\r\n
 comment1.params=p_lu\ p_nombre\ p_apellido
-comment1.target=Pupil(int,\ java.lang.String,\ java.lang.String)
+comment1.target=pupil(int,\ java.lang.String,\ java.lang.String)
 comment1.text=\r\n\ Constructor\ de\ la\ clase\ {@code\ Pupil}.\r\n\ Inicializa\ un\ objeto\ Pupil\ con\ su\ n\u00FAmero\ de\ libreta\ universitaria\ (LU),\ nombre\ y\ apellido.\r\n\ \r\n\ @param\ p_lu\ N\u00FAmero\ de\ libreta\ universitaria\ del\ alumno.\r\n\ @param\ p_nombre\ Nombre\ del\ alumno.\r\n\ @param\ p_apellido\ Apellido\ del\ alumno.\r\n
 comment10.params=
 comment10.target=double\ getNota1()

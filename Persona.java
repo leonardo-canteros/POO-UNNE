@@ -36,7 +36,7 @@ public class Persona
      * @param p_dni 
      */
     private void setDni(int p_DNI){
-        this.dni = 44213011;     
+        this.dni = p_DNI;     
     }
     
       /**
@@ -45,7 +45,7 @@ public class Persona
      * @param p_nacimiento
      */
     private void setAnio(int p_anio){
-        this.anio= 2002;
+        this.anio= p_anio;
     }
     
       /**
@@ -54,7 +54,7 @@ public class Persona
      * @param p_nombre
      */
     private void setNombre(String p_nombre){
-        this.nombre = "leonardo";
+        this.nombre = p_nombre;
     }
     
        /**
@@ -63,7 +63,7 @@ public class Persona
      * @param p_apellido
      */
     private void setApellido(String p_apellido){
-        this.apellido = "canteros"; 
+        this.apellido = p_apellido; 
     }
 
     /**

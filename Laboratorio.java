@@ -41,15 +41,15 @@ public class Laboratorio
     
     
     private void setNombre (String p_nombre){
-      this.nombre = "Colgate S.A";  
+      this.nombre = p_nombre;  
     }
     
     private void setDomicilio (String p_domicilio){
-      this.domicilio = "Junin 5402";  
+      this.domicilio = p_domicilio;  
     }
     
     private void setTelefono (String p_telefono){
-      this.telefono = "54-11-4239-8447";  
+      this.telefono = p_telefono;  
     }
     
     private void setCompraMin (int p_compramin){

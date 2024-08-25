@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=nuevoPupil
+comment0.text=\r\n\ Esta\ clase\ llamada\ empleadoNuevo\ ejecutara\ y\ creara\ un\ alumno\r\n\ \r\n\ @author\ Leonardo\ Canteros\ \r\n
+comment1.params=p_libreta\ p_apellido1\ p_nombre1\ p_nota1\ p_nota2
+comment1.target=void\ main(int,\ java.lang.String,\ java.lang.String,\ double,\ double)
+numComments=2

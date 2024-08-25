@@ -5,7 +5,7 @@
  * 
  * @author Leonardo Canteros
  */
-public class Pupil {
+public class pupil {
     private int lu;
     private String nombre;
     private String apellido;
@@ -20,7 +20,7 @@ public class Pupil {
      * @param p_nombre Nombre del alumno.
      * @param p_apellido Apellido del alumno.
      */
-    public Pupil(int p_lu, String p_nombre, String p_apellido) {
+    public pupil(int p_lu, String p_nombre, String p_apellido) {
         setNombre(p_nombre);
         setApellido(p_apellido);
         setLu(p_lu);
@@ -123,7 +123,7 @@ public class Pupil {
      * @return {@code true} si aprueba, de lo contrario {@code false}.
      */
     private boolean aprueba() {
-        return this.nota1 >= 6.0 && this.nota2 >= 6.0 && this.promedio() >= 7.0;
+        return getNota1() >= 6.0 && getNota2() >= 6.0 && promedio() >= 7.0;
     }
 
     /**
@@ -132,7 +132,7 @@ public class Pupil {
      * @return "APROBADO" si el alumno aprueba, de lo contrario "DESAPROBADO".
      */
     private String leyendaAprueba() {
-        return this.aprueba() ? "APROBADO" : "DESAPROBADO";
+        return aprueba() ? "APROBADO" : "DESAPROBADO";
     }
 
     /**
@@ -141,7 +141,7 @@ public class Pupil {
      * @return Promedio de las notas.
      */
     public double promedio() {
-        return (this.nota1 + this.nota2) / 2;
+        return (getNota1() + getNota2()) / 2;
     }
 
     /**
@@ -150,7 +150,7 @@ public class Pupil {
      * @return Nombre y apellido del alumno.
      */
     public String nomYape() {
-        return this.nombre + " " + this.apellido;
+        return getNombre() + " " + getApellido();
     }
 
     /**
@@ -159,7 +159,7 @@ public class Pupil {
      * @return Apellido y nombre del alumno.
      */
     public String ApeYnom() {
-        return this.apellido + " " + this.nombre;
+        return getApellido() + " " + getNombre();
     }
 
     /**
@@ -167,8 +167,8 @@ public class Pupil {
      * notas, promedio y si está aprobado o desaprobado.
      */
     public void mostrar() {
-        System.out.println("Nombre y Apellido: " + this.nomYape());
+        System.out.println("Nombre y Apellido: " + nomYape());
         System.out.println("LU :" + lu + " " + "Notas : " + nota1 + "-" + nota2);
-        System.out.println("Promedio :" + this.promedio() + " - " + this.leyendaAprueba());
+        System.out.println("Promedio :" + promedio() + " - " + leyendaAprueba());
     }
 }

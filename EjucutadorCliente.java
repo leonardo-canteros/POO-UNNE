@@ -2,9 +2,9 @@
 public class EjucutadorCliente
 {
 
-    public static void main ()
+    public static void main (int p_dni , String p_apellido, String p_nombre, double p_saldo)
     {
-        Cliente mario = new Cliente (27478951,"Berardi","Mario", 4575.50);
+        Cliente mario = new Cliente (p_dni,p_apellido,p_nombre,p_saldo);
         mario.mostrar();
     }
 }

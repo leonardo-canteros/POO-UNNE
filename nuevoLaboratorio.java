@@ -12,9 +12,9 @@ public class nuevoLaboratorio
      */
     public static void main()
     {
-        Laboratorio Colgate = new Laboratorio("asd", "asd" ,"asd");
+        Laboratorio Colgate = new Laboratorio("Colgate S.A", "Junin 5204" ,"54-11-4239-8447");
         Colgate.mostrar();
-        //Laboratorio Supermax = new Laboratorio(15000,23,"asd","asd","asd");
-        //Supermax.mostrar();
+         Laboratorio Supermax = new Laboratorio(15000,23,"supermax S.R.L","Hirigoyen 2820","3795452748");
+        Supermax.mostrar();
     }
 }

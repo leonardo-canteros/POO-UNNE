@@ -168,7 +168,7 @@ public class Empleado {
      * @return El sueldo neto del empleado.
      */
     public double sueldoNeto() {
-        return (sueldoBasico + this.adicional()) - this.descuento();
+        return (sueldoBasico + adicional()) - descuento();
     }
 
     /**
@@ -177,7 +177,7 @@ public class Empleado {
      * @return El nombre completo del empleado en formato "Apellido, Nombre".
      */
     public String apeYnom() {
-        return this.getApellido() + ", " + this.getNombre();
+        return getApellido() + ", " + getNombre();
     }
 
     /**
@@ -186,7 +186,7 @@ public class Empleado {
      * @return El nombre completo del empleado en formato "Nombre Apellido".
      */
     public String nomYape() {
-        return this.getNombre() + " " + this.getApellido();
+        return getNombre() + " " + getApellido();
     }
 
     /**
@@ -194,9 +194,9 @@ public class Empleado {
      * nombre completo, CUIL, antigüedad y sueldo neto.
      */
     public void mostrar() {
-        System.out.println("Nombre y Apellido: " + this.nomYape());
-        System.out.println("CUIL: " + this.getCuil() + " | Antigüedad: " + this.antiguedad() + " años de servicio");
-        System.out.println("Sueldo Neto: $" + this.sueldoNeto());
+        System.out.println("Nombre y Apellido: " + nomYape());
+        System.out.println("CUIL: " + getCuil() + " | Antigüedad: " + antiguedad() + " años de servicio");
+        System.out.println("Sueldo Neto: $" + sueldoNeto());
     }
 
     /**
@@ -206,6 +206,6 @@ public class Empleado {
      * @return Una cadena con el CUIL, apellido, nombre y sueldo neto del empleado.
      */
     public String mostrarLinea() {
-        return this.getCuil() + " " + this.apeYnom() + " $" + this.sueldoNeto();
+        return getCuil() + " " + apeYnom() + " $" + sueldoNeto();
     }
 }
