@@ -7,6 +7,8 @@ import java.util.GregorianCalendar;
  * Además, permite calcular la antigüedad, los descuentos, adicionales y 
  * el sueldo neto.
  * 
+ * @author Leonardo Canteros
+ * 
  */
 public class Empleado {
     private long cuil;

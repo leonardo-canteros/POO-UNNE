@@ -1,9 +1,8 @@
 import java.util.Scanner;
 /**
- * Write a description of class empleadoNuevo here.
+ * Esta clase llamada empleadoNuevo ejecutara y creara un empleado
  * 
  * @author Leonardo Canteros 
- * @version 
  */
 public class empleadoNuevo
 {

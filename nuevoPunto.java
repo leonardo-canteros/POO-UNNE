@@ -1,13 +1,14 @@
 import java.util.Scanner;
 /**
- * Write a description of class empleadoNuevo here.
+ * Esta clase llamada nuevoPunto ejecutara y creara un punto
  * 
  * @author Leonardo Canteros 
- * @version 
  */
 
-public class punto {
-    public static void main(String[] args) {
+
+public class nuevoPunto {
+    
+    public static void main(String args) {
         Scanner scanner = new Scanner(System.in); // Creamos un objeto Scanner para leer los datos desde el teclado
 
         // Solicitamos al usuario las coordenadas iniciales del punto
@@ -18,7 +19,7 @@ public class punto {
         double yInicial = scanner.nextDouble();
 
         // Creamos un objeto Punto con las coordenadas ingresadas
-        punto punto = new Punto(xInicial, yInicial);
+        Punto punto = new Punto(xInicial, yInicial);
 
         // Mostramos las coordenadas del punto
         System.out.println("El punto inicial es:");
@@ -42,4 +43,3 @@ public class punto {
         scanner.close();
     }
 }
-

@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Empleado
-comment0.text=\r\n\ La\ clase\ {@code\ Empleado}\ representa\ un\ empleado\ con\ informaci\u00F3n\ personal\r\n\ y\ laboral,\ como\ CUIL,\ nombre,\ apellido,\ sueldo\ b\u00E1sico\ y\ a\u00F1o\ de\ ingreso.\r\n\ Adem\u00E1s,\ permite\ calcular\ la\ antig\u00FCedad,\ los\ descuentos,\ adicionales\ y\ \r\n\ el\ sueldo\ neto.\r\n\ \r\n
+comment0.text=\r\n\ La\ clase\ {@code\ Empleado}\ representa\ un\ empleado\ con\ informaci\u00F3n\ personal\r\n\ y\ laboral,\ como\ CUIL,\ nombre,\ apellido,\ sueldo\ b\u00E1sico\ y\ a\u00F1o\ de\ ingreso.\r\n\ Adem\u00E1s,\ permite\ calcular\ la\ antig\u00FCedad,\ los\ descuentos,\ adicionales\ y\ \r\n\ el\ sueldo\ neto.\r\n\ \r\n\ @author\ Leonardo\ Canteros\r\n\ \r\n
 comment1.params=p_cuil\ p_apellido\ p_nombre\ p_sueldoBasico\ p_anioIngreso
 comment1.target=Empleado(long,\ java.lang.String,\ java.lang.String,\ double,\ int)
 comment1.text=\r\n\ Constructor\ para\ crear\ un\ objeto\ {@code\ Empleado}\ con\ los\ detalles\ espec\u00EDficos\r\n\ como\ CUIL,\ apellido,\ nombre,\ sueldo\ b\u00E1sico\ y\ a\u00F1o\ de\ ingreso.\r\n\ \r\n\ @param\ p_cuil\ \ \ \ \ \ \ \ \ El\ CUIL\ del\ empleado.\r\n\ @param\ p_apellido\ \ \ \ \ El\ apellido\ del\ empleado.\r\n\ @param\ p_nombre\ \ \ \ \ \ \ El\ nombre\ del\ empleado.\r\n\ @param\ p_sueldoBasico\ El\ sueldo\ b\u00E1sico\ del\ empleado.\r\n\ @param\ p_anioIngreso\ \ El\ a\u00F1o\ en\ que\ ingres\u00F3\ el\ empleado.\r\n
