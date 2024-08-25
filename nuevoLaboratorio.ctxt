@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=nuevoLaboratorio
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ nuevoLaboratorio\ here.\r\n\ \r\n\ @author\ Canteros\ Leonardo\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ main()
+comment1.text=\r\n\ Metodo\ main\ que\ ejecutara\ un\ nuevo\ laboratio\ y\ mostrara\ sus\ atributos.\r\n
+numComments=2
